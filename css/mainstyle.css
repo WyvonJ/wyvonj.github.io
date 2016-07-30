@@ -12,7 +12,7 @@ body
 
 .wrapper
 {
-	min-width: 1280px;
+	width: 1280px;
 	margin: 0 auto;
 
 }
@@ -21,7 +21,6 @@ header
 	width: 1153px;
 	height: 42px;
 	padding: 15px 67px 0px 60px;
-	text-align: center;
 }
 
 img[alt="new-world"]
@@ -113,7 +112,7 @@ div.main-content-top
 	font-weight: 200;
 	padding: 233px 0 0 118px;
 	height: 457px;
-	background: url(images/new_life.gif) no-repeat;
+	background: url(../images/new_life.gif) no-repeat;
 }
 
 div.main-content-top h1
@@ -201,7 +200,7 @@ div.main-content-top p
 	color: #fff;
 	height: 341px;
 	text-align: center;
-	background: url(images/search_for_new.jpg) no-repeat;
+	background: url(../images/search_for_new.jpg) no-repeat;
 }
 
 .search-cities h2
