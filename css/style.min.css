@@ -81,6 +81,7 @@ a {
 
 #post-content .line {
   height: 19px;
+  font-family: consolas;
 }
 
 #post-content figure {
@@ -489,6 +490,8 @@ a {
     margin: 0;
     transition: 1s;
     border-radius: 0!important;
+    min-height: 50vh!important;
+
   }
   #scheme-Paradox .material-layout .daily-pic {
     height: 100%;
@@ -499,8 +502,7 @@ a {
 
 @media screen and (min-width:481px) and (max-width:840px) {
   #scheme-Paradox .index-top-block {
-    min-height: 200px!important;
-    margin-bottom: 47.59px;
+    min-height: 320px!important;
     transition: 1s;
   }
 }
@@ -532,6 +534,7 @@ a {
 #scheme-Paradox .post_entry-module {
   margin-top: 0;
   margin-bottom: 47.59px;
+  max-width: 480px;
 }
 
 #scheme-Paradox .material-layout .material-index,
@@ -1192,9 +1195,14 @@ a {
 }
 
 #scheme-Paradox #article-functions-like-button:hover {
-  color: red;
+  color: #f44336;
 }
-
+#scheme-Paradox #article-functions-viewtags-button:hover {
+  color: #03a9f4;
+}
+#scheme-Paradox #article-fuctions-share-button:hover {
+  color: #43A047;
+}
 @media screen and (max-width:480px) {
   #scheme-Paradox .material-post_container .mdl-card,
   #scheme-Paradox .page-module .mdl-card {
@@ -2193,6 +2201,7 @@ a {
   position: absolute;
   top: 9pt;
   right: 1pc;
+  border-radius: 2px;
 }
 
 .sidebar .hot_tags-count,
@@ -2340,7 +2349,7 @@ a {
 }
 
 .sidebar-colored .sidebar-header {
-  background-color: #e91e63!important;
+  background-color: #2196F3;
 }
 
 .sidebar-colored .sidebar-toggle {
@@ -2478,7 +2487,7 @@ a {
     min-width: 15pc;
   }
   .sidebar .sidebar-header {
-    height: 149.34px;
+    height: 135.34px;
   }
   .sidebar .sidebar-image img {
     width: 44px;
@@ -2651,7 +2660,13 @@ a {
   text-decoration: none;
   color: #727272;
 }
-
+.posts-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .material-icons {
   font-family: Material Icons;
   font-size: 24px;
@@ -2712,7 +2727,7 @@ a {
   text-align: center;
   color: #fff;
   border-radius: 50%;
-  background: #00bcd4;
+  background: #673AB7 !important;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, .12), 0 3px 3px 0 rgba(0, 0, 0, .24);
 }
 
@@ -2819,7 +2834,7 @@ a {
   -ms-transform: scale(0);
   transform: scale(0);
   border-radius: 100%;
-  background: rgba(38, 50, 56, .4);
+  background: rgba(38, 50, 56, .3);
   webkit-transform: scale(0);
 }
 
