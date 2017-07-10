@@ -14,8 +14,8 @@
         width: $(this).data("level") + "%"
       })
     })
-    $('#year').text((new Date()).getFullYear())//footer显示年份
-    $backToTop.hide()//初始隐藏backtotop
+    $('#year').text((new Date()).getFullYear()) //footer显示年份
+    $backToTop.hide() //初始隐藏backtotop
 
   })
 
@@ -40,10 +40,10 @@
   })
 
 
-  window.addEventListener('mousewheel',function(e){
-    if (window.scrollY>=600) {
+  window.addEventListener('mousewheel', function(e) {
+    if (window.scrollY >= 600) {
       $backToTop.show()
-    } else{
+    } else {
       $backToTop.hide()
     }
   })

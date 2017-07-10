@@ -59,7 +59,7 @@
     <meta name="apple-mobile-web-app-title" content="WyvonJ">
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com">
+    <meta property="og:url" content="http://wyvonj.github.io">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="标签: Hexo | WyvonJ">
     <meta property="og:image" content="/img/favicon.png" />
@@ -73,11 +73,11 @@
     <meta name="twitter:description" content="Wyvonj&#39;s Blogs And Infos">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="http://yoursite.com" />
+    <meta name="twitter:url" content="http://wyvonj.github.io" />
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/tags/Hexo/index.html" />
+        <link rel="canonical" href="http://wyvonj.github.io/tags/Hexo/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -288,10 +288,8 @@
                 <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
     <!-- Post Thumbnail -->
     
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="img/random/material-4.png">
     
 
         <!-- Post Title -->
@@ -350,7 +348,7 @@
     var randomNum;
 
     var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
+    for(var i = 0; i < 0; i++) {
         randomNum = Math.floor(Math.random() * 21 + 1);
 
         locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
