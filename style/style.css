@@ -240,7 +240,7 @@ li
     display: flex;
     overflow: hidden;
 
-    padding: 0 20px;
+    padding: 10px 20px;
 
     align-items: center;
     justify-content: center;
@@ -380,6 +380,7 @@ li
 .desc h5 a
 {
     color: white;
+        font-size: 20px;
 }
 .services-box, .contact-box{
     padding-top: 24px;
@@ -399,7 +400,12 @@ li
 {
     font-variant: small-caps;
 }
-
+.school-list{
+    padding: 4px 8px;
+    text-align: left;
+    font-size: 18px;
+    padding: 6px 128px;
+}
 .education-school
 {
     font-size: 20px;
@@ -506,6 +512,7 @@ li.selected
 .skills-list
 {
     display: flex;
+    padding: 0 0 0 15px;
 }
 .skills-list li
 {
@@ -533,7 +540,7 @@ section[class$='-box']
     }
     .social-icons li
     {
-        margin: 0 14px;
+        margin: 0 13px;
     }
     .profile-box
     {
@@ -555,5 +562,24 @@ section[class$='-box']
     {
         right: 18px;
         bottom: 30px;
+    }
+    .education-school {
+    padding: 12px;
+}
+.skills-box {
+    width: 108%;
+    left: -4%;
+}
+.school-list{
+    font-size: 16px;
+    padding: 12px;
+}
+}
+
+@media screen and (max-width: 640px)
+{
+.social-icons li
+    {
+        margin: 0 11px;
     }
 }
