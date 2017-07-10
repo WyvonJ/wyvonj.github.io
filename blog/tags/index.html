@@ -8,7 +8,7 @@
     
     <title>
         
-            CSS3 | 
+            tags | 
         
         WyvonJ
     </title>
@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Wyvonj">
     <meta name="description" itemprop="description" content="Wyvonj&#39;s Blogs And Infos">
-    <meta name="keywords" content="null,CSS">
+    <meta name="keywords" content="null">
 
     <!-- Site Verification -->
     
@@ -61,18 +61,15 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://wyvonj.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="CSS3 | WyvonJ">
+    <meta property="og:title" content="tags | WyvonJ">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="Wyvonj&#39;s Blogs And Infos">
-    <meta property="og:article:tag" content="CSS"> 
-
     
-        <meta property="article:published_time" content="5月 21, 2017" />
-        <meta property="article:modified_time" content="7月 11, 2017" />
+
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="CSS3 | WyvonJ">
+    <meta name="twitter:title" content="tags | WyvonJ">
     <meta name="twitter:description" content="Wyvonj&#39;s Blogs And Infos">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -80,43 +77,13 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://wyvonj.github.io/2017/05/21/CSS3/index.html" />
+        <link rel="canonical" href="http://wyvonj.github.io/tags/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "publisher": {
-        "@type": "Organization",
-        "name": "WyvonJ",
-        "logo": "/img/favicon.png"
-    },
-    "author": {
-        "@type": "Person",
-        "name": "Wyvonj",
-        "image": {
-            "@type": "ImageObject",
-            "url": "/img/favicon.png"
-        },
-        "description": "苟利前端生死以，豈因八格避趨之"
-    },
-    "headline": "CSS3",
-    "url": "http://wyvonj.github.io/2017/05/21/CSS3/index.html",
-    "datePublished": "5月 21, 2017",
-    "dateModified": "7月 11, 2017",
-    "description": "Wyvonj&#39;s Blogs And Infos",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "http://wyvonj.github.io"
-    }
-}
-</script>
 
 
     
@@ -306,231 +273,60 @@
 
                     <!-- Post TOC -->
 
-    
-    <!-- Back Button -->
-<!--    
-<div class="material-back" id="backhome-div" tabindex="0">
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
-           href="#" onclick="window.history.back();return false;"
-           target="_self"
-           role="button"
-           data-upgraded=",MaterialButton,MaterialRipple">
-            <i class="material-icons" role="presentation">arrow_back</i>
-            <span class="mdl-button__ripple-container">
-                <span class="mdl-ripple"></span>
-            </span>
-        </a>
-    </div>
--->
-    <!-- Left aligned menu below button -->
-    <button id="post-toc-trigger-btn"
-        class="mdl-button mdl-js-button mdl-button--icon">
-        <i class="material-icons">format_list_numbered</i>
-    </button>
-
-    
-    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        
-        <!--
-        <li class="mdl-menu__item">
-            Some Action
-        </li>
-        -->
-    </ul>
-    
-
-
-
-
 
 <!-- Layouts -->
 
-    <!-- Post Module -->
-    <div class="material-post_container">
+    <!-- Tags Cloud -->
+    <style>
+    #bottom{
+        position: relative;
+    }
 
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    @media screen and (max-width: 480px) {
+        .material-tagscloud{
+            margin: 6em 2em 0;
+        }
+    }
 
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(../../../../img/random/material-1.png)">
-    
-            <p class="article-headline-p">
-                CSS3
-            </p>
-        </div>
+    .material-tagscloud a{
+        text-decoration:none;
+        padding: 1px 9px;
+        margin: 9px 1px;
+        line-height: 40px;
+        white-space: nowrap;
+        transition: .6s;
+        opacity: .85;
+    }
 
+    .material-tagscloud a:hover{
+        transition: .6s;
+        opacity: 1;
+        background: #FAFAFA;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    }
+</style>
 
-
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="img/my_portrait.png" width="44px" height="44px" alt="Author Avatar"/>
+<div class=" material-tagscloud">
+    <div class="material-post mdl-grid">
+        <a href="/tags/CSS/" style="font-size: 25.5px; color: #4b4b4b">CSS</a> <a href="/tags/EJS/" style="font-size: 16px; color: #757575">EJS</a> <a href="/tags/HTML/" style="font-size: 25.5px; color: #4b4b4b">HTML</a> <a href="/tags/HTTP/" style="font-size: 16px; color: #757575">HTTP</a> <a href="/tags/Hexo/" style="font-size: 16px; color: #757575">Hexo</a> <a href="/tags/JavaScript/" style="font-size: 35px; color: #212121">JavaScript</a> <a href="/tags/Python/" style="font-size: 16px; color: #757575">Python</a>
     </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>Wyvonj</strong>
-        <span>5月 21, 2017</span>
-    </div>
-
-    <div class="section-spacer"></div>
-
-    <!-- Favorite -->
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-
-    <!-- Qrcode -->
-    
-
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/CSS/">CSS</a>
-    </ul>
-    
-
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=CSS3&url=http://wyvonj.github.io/2017/05/21/CSS3/index.html&pic=&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=CSS3&url=http://wyvonj.github.io/2017/05/21/CSS3/index.html&via=Wyvonj" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-
-    <!-- Share Google+ -->
-    
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://wyvonj.github.io/2017/05/21/CSS3/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Google+
-            </li>
-        </a>
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=WyvonJ&title=CSS3&summary=Wyvonj&#39;s Blogs And Infos&pics=http://wyvonj.github.io/img/favicon.png&url=http://wyvonj.github.io/2017/05/21/CSS3/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 QQ
-            </li>
-        </a>
-    
-
-    <!-- Share Telegram -->
-    
-</ul>
-
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <ol>
-<li>vertical-align对inline-block的元素起作用，如img button radio checkbox input以及display为table-cell </li>
-<li>div&gt;p p的直接父元素为div</li>
-<li>div+p 紧接在div后面的所有p</li>
-<li>p~ul 选择前面有p的ul</li>
-<li><p>p:first-child 选择的是p 如下面选择的是div中的第一个p</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"child"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>:first-of-type :only-of-type :only-child :nth-last-child</p>
-</li>
-<li>:root :empty :target</li>
-<li>a[src*=”.pdf”] src属性中包含了.pdf字符串</li>
-<li>单冒号: 用于CSS3伪类 双冒号:: 用于CSS3伪元素</li>
-<li>伪类 :first-child :link :hover :root</li>
-<li>伪元素 ::first-line ::first-letter ::before ::after</li>
-<li>设置word-wrap: break-word的话，在单词换行的情况下，可保持单词的完整性</li>
-<li>父容器设置overflow:hidden 然后设置text-overflow:ellipsis white-space:nowrap 省略号</li>
-<li>background-attachment:fixed|scroll属性设置背景图像是否固定或者随着页面的其余部分滚动</li>
-<li>background-clip: border-box|padding-box|content-box 规定背景的绘制区域</li>
-<li>background-origin: padding-box|border-box|content-box 相对于什么位置来定位</li>
-<li>transform-origin元素的旋转中心，默认为元素中心点，左上角为0，0</li>
-</ol>
-
-    
-
 </div>
 
 
-                
+<script type="text/ls-javascript" id="page-tagcloud-script">
+    var adjustFooter = function() {
+        if( ($('#bottom').offset().top + $('#bottom').outerHeight() ) < $(window).height() ) {
+            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
+            $('#bottom').css('bottom', '-' + footerBottom + 'px');
+        }
+    };
 
-                <!-- Post Comments -->
-                
-                    
-                
-            </div>
+    $(document).ready(function() {
+        adjustFooter();
+    });
+</script>
 
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-        <a href="/2017/05/24/HTTP/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-        <a href="/2017/05/11/SASS/" id="post_nav-older" class="next-content">
-            旧篇
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_forward</i>
-            </button>
-        </a>
-    
-</nav>
-
-        </div>
-    </div>
 
 
 
@@ -700,14 +496,6 @@
 </aside>
 
                     
-
-                    
-                        <!-- Footer Top Button -->
-                        <div id="back-to-top" class="toTop-wrap">
-    <a href="#top" class="toTop">
-        <i class="material-icons footer_top-i">expand_less</i>
-    </a>
-</div>
 
                     
 
